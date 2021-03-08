@@ -35,7 +35,7 @@ const DELETED_CAR_OWNER_IDENTIFIER = 'CAR KEY DELETED';
 async function main () {
   try {
     // The ID of the car to look up (can be overridden by the first command line argument)
-    carid = (process.argv[2] !== undefined) ? process.argv[2] : 'CAR1096'; // TODO change
+    carid = (process.argv[2] !== undefined) ? process.argv[2] : 'CARXXXX'; // TODO change
 
     // Create a new file system based wallet for managing identities.
     const walletPath = path.join(process.cwd(), 'drivenet_wallet');
