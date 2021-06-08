@@ -5,7 +5,13 @@ And the code is in fabric 2.2. Hence some changes to ownerhistory and the packag
 
 
 # Tutorial step B7.18
-Run the application from your terminal - '$ node ./dist/ownerhistory.js'
+After changing the package and ownerhistory code to use the one given, make sure to recompile.
+Make sure to change the default CARXXX value to your own. 
+Then, to run the app, open a terminal and 
+```
+node ./dist/ownerhistory.js
+```
+
 
 # Tutorial step B8.7
 Run the application from your terminal - '$ node ./dist/ownerhistorylistener.js'
